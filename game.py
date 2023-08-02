@@ -1,5 +1,6 @@
 import pygame as pg
 
+<<<<<<< Updated upstream
 class Test:
 
     def __init__(self):
@@ -20,6 +21,16 @@ class Test:
             "height": self.screen_width, 
             "width": self.screen_height
         }
+
+class Optotype:
+
+    def __init__(self):
+        self.width = 0
+        self.length = 0
+        self.color = ""
+        self.optotype_List = []
+
+
 
 #Game loop
 while True:
