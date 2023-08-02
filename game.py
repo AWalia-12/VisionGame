@@ -40,8 +40,17 @@ class Optotype:
     def __init__(self):
         self.width = 0
         self.length = 0
-        self.color = ""
+        self.color = ()
         self.optotype_List = []
+
+
+    # change function
+
+    imp = pygame.image.load("optotype.png")
+
+    screen.blit(imp, (0, 0))
+
+    # display function
 
 
 
