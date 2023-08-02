@@ -1,6 +1,5 @@
 import pygame as pg
 
-<<<<<<< Updated upstream
 class Test:
 
     def __init__(self):
@@ -21,6 +20,20 @@ class Test:
             "height": self.screen_width, 
             "width": self.screen_height
         }
+    
+    def run(self):
+
+        while True: #Main game loop. quits only if game closed.
+
+            for event in pg.event.get():
+
+                if event.type == pg.QUIT:
+                    pg.quit()
+                    return
+
+            
+            pg.display.update()
+            
 
 class Optotype:
 
@@ -32,6 +45,6 @@ class Optotype:
 
 
 
-#Game loop
-while True:
-    print("hello world")
+#Game initialization
+a = Test()
+a.run()
