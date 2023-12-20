@@ -13,6 +13,7 @@ public class Results extends Game{
 
     public String emailText(){
         // forms email based on predetermined template
+        return null;
     }
 
     public void email(String text, String parentEmail) {

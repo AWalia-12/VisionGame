@@ -39,13 +39,14 @@ public class Game {
 
     public boolean isCorrect(){
         //returns true/false depending on if user was correct on certain question
+        return true;
     }
 
 
     // returns true/false depending on if user's eyes are focused on screen, rather than external factors
     // (limits the potential of inaccurate data/results)
     public boolean visionTracking(){
-
+        return true;
     }
 
 
